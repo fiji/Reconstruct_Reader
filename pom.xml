@@ -26,6 +26,10 @@
 			<groupId>sc.fiji</groupId>
 			<artifactId>TrakEM2_</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>mpicbg</groupId>
+			<artifactId>mpicbg</artifactId>
+		</dependency>
 	</dependencies>
 
 	<ciManagement>
