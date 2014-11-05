@@ -1,13 +1,23 @@
 package edu.utexas.clm.reconstructreader;
 
 import edu.utexas.clm.reconstructreader.reconstruct.ContourSet;
-import org.w3c.dom.*;
 
 import java.awt.geom.AffineTransform;
 import java.awt.geom.NoninvertibleTransformException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Formatter;
+import java.util.List;
+import java.util.Locale;
+import java.util.StringTokenizer;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 public final class Utils {
 

@@ -9,13 +9,10 @@ import ij.process.ImageProcessor;
 import ini.trakem2.Project;
 import ini.trakem2.display.AreaList;
 import ini.trakem2.display.Layer;
-import ini.trakem2.display.LayerSet;
 import ini.trakem2.display.Patch;
-import mpicbg.models.IllDefinedDataPointsException;
 
-
-import java.awt.Rectangle;
 import java.awt.Color;
+import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Area;
 import java.util.ArrayList;

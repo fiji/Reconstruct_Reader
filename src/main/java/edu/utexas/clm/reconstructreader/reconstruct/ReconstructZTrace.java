@@ -1,9 +1,10 @@
 package edu.utexas.clm.reconstructreader.reconstruct;
 
 import edu.utexas.clm.reconstructreader.Utils;
-import org.w3c.dom.Element;
 
 import java.util.ArrayList;
+
+import org.w3c.dom.Element;
 
 public class ReconstructZTrace implements ContourSet
 {

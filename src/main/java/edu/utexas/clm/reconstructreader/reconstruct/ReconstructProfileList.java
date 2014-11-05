@@ -1,8 +1,8 @@
 package edu.utexas.clm.reconstructreader.reconstruct;
 
-import org.w3c.dom.Element;
-
 import java.util.ArrayList;
+
+import org.w3c.dom.Element;
 
 public class ReconstructProfileList implements ContourSet
 {

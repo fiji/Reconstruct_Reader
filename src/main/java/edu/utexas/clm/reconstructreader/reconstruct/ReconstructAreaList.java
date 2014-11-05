@@ -1,10 +1,11 @@
 package edu.utexas.clm.reconstructreader.reconstruct;
 
 import edu.utexas.clm.reconstructreader.Utils;
-import org.w3c.dom.Element;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.w3c.dom.Element;
 
 
 public class ReconstructAreaList implements ContourSet {

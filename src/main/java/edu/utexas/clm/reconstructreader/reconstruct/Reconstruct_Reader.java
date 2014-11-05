@@ -2,7 +2,6 @@ package edu.utexas.clm.reconstructreader.reconstruct;
 
 import ij.IJ;
 import ij.gui.MessageDialog;
-
 import ij.io.OpenDialog;
 import ij.plugin.PlugIn;
 import ini.trakem2.Project;

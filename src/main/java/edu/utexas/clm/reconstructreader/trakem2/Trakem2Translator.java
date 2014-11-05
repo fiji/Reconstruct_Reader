@@ -2,15 +2,25 @@ package edu.utexas.clm.reconstructreader.trakem2;
 
 import edu.utexas.clm.reconstructreader.Utils;
 import ini.trakem2.Project;
-import ini.trakem2.display.*;
+import ini.trakem2.display.AreaList;
+import ini.trakem2.display.Display;
+import ini.trakem2.display.Displayable;
+import ini.trakem2.display.Layer;
+import ini.trakem2.display.LayerSet;
+import ini.trakem2.display.Profile;
 import ini.trakem2.tree.ProjectThing;
 import ini.trakem2.tree.Thing;
 
-import java.awt.*;
+import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Area;
 import java.awt.geom.PathIterator;
-import java.io.*;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
