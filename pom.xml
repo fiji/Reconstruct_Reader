@@ -18,6 +18,29 @@
 	<name>plugins/Reconstruct_Reader.jar</name>
 	<description></description>
 
+	<scm>
+		<connection>scm:git:git://github.com/trakem2/Reconstruct_Reader</connection>
+		<developerConnection>scm:git:git@github.com:trakem2/Reconstruct_Reader</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/trakem2/Reconstruct_Reader</url>
+	</scm>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Reconstruct_Reader/</url>
+	</ciManagement>
+
+	<repositories>
+		<!-- NB: for project parent -->
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+		<repository>
+			<id>JBoss 3rdparty</id>
+			<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>net.imagej</groupId>
@@ -32,29 +55,5 @@
 			<artifactId>mpicbg</artifactId>
 		</dependency>
 	</dependencies>
-
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Reconstruct_Reader/</url>
-	</ciManagement>
-
-	<scm>
-		<connection>scm:git:git://github.com/trakem2/Reconstruct_Reader</connection>
-		<developerConnection>scm:git:git@github.com:trakem2/Reconstruct_Reader</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/trakem2/Reconstruct_Reader</url>
-	</scm>
-
-	<repositories>
-		<!-- NB: for project parent -->
-		<repository>
-			<id>imagej.public</id>
-			<url>http://maven.imagej.net/content/groups/public</url>
-		</repository>
-		<repository>
-			<id>JBoss 3rdparty</id>
-			<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases</url>
-		</repository>
-	</repositories>
 
 </project>
