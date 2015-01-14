@@ -39,10 +39,10 @@
 	</ciManagement>
 
 	<scm>
-		<connection>scm:git:git://github.com/fiji/Reconstruct_Reader</connection>
-		<developerConnection>scm:git:git@github.com:fiji/Reconstruct_Reader</developerConnection>
+		<connection>scm:git:git://github.com/trakem2/Reconstruct_Reader</connection>
+		<developerConnection>scm:git:git@github.com:trakem2/Reconstruct_Reader</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/fiji/Reconstruct_Reader</url>
+		<url>https://github.com/trakem2/Reconstruct_Reader</url>
 	</scm>
 
 	<repositories>
