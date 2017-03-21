@@ -87,8 +87,8 @@
 		<url>https://github.com/fiji/Reconstruct_Reader/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Reconstruct_Reader/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/Reconstruct_Reader</url>
 	</ciManagement>
 
 	<properties>
